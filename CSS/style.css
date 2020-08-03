@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  text-decoration: none;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 7% auto;
+}
+
+.bottom-container {}
+
+.top-container {
+  height: 100%;
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 10%;
+}
+
+.middle-container {
+  padding-top: 100px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+  top: 55%;
+  width: 12%;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 20%;
+  top: 7%;
+  width: 12%;
+}
+
+.mountain{
+  width: 40%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 50px;
+  text-align: left;
+  line-height: 2;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.code-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  background-color: #ce5a3b;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.footer-link {
+  margin: 25px 15px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.copyright {
+  margin-top: 30px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+.contact-message {
+  width: 25%;
+  margin: 20px auto 40px;
+}
+
+.myButton {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+  background-color: #11999e;
+  border-radius: 8px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  margin-bottom: 60px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+  background-color: #30e3cb;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+@media(max-width: 790px){
+  .bottom-cloud {
+    position: absolute;
+    left: 15%;
+    top: 70%;
+    width: 12%;
+  }
+
+  hr{
+    margin: 15% auto;
+  }
+}
+
+@media(max-width: 505px){
+  .bottom-cloud {
+    top: 80%;
+  }
+}
