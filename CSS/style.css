@@ -152,6 +152,10 @@ hr {
     margin: 15% auto;
   }
   
+  .skill-row{
+    width: 70%;
+  }  
+  
   .contact-message{
     width: 50%;
   }
