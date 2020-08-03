@@ -151,6 +151,10 @@ hr {
   hr{
     margin: 15% auto;
   }
+  
+  .contact-message{
+    width: 50%;
+  }
 }
 
 @media(max-width: 505px){
